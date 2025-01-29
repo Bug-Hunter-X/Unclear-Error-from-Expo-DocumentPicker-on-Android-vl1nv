@@ -1,0 +1,1 @@
+This bug occurs when using the Expo DocumentPicker API on Android.  After selecting a file, the promise returned by DocumentPicker.getDocumentAsync() sometimes rejects with an error that lacks specific details, making debugging difficult. The error message is often vague, such as "Error: An error occurred." or similar.
